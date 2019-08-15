@@ -1,0 +1,58 @@
+// Nav Start
+nav.navbar.navbar-expand-lg.navbar-light.theme-nav.fixed-top
+  .container
+    a.navbar-brand(href='index.html')
+      img(src='assets/images/logo.png', alt='logo')
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarSupportedContent.collapse.navbar-collapse.default-nav
+      ul#mymenu.navbar-nav.ml-auto
+        li.nav-item
+          a.nav-link(href=inner+'#home') Home
+        li.nav-item
+          a.nav-link(href=inner+'#about') about
+        li.nav-item
+          a.nav-link(href=inner+'#feature') feature
+        li.nav-item
+          a.nav-link(href=inner+'#screenshot') screenshot
+        li.nav-item
+          a.nav-link(href=inner+'#team') team
+        li.nav-item.dropdown
+          a.nav-link.dropdown-toggle(href=inner+'#blog', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') blog
+          ul.dropdown-menu
+            li.nav-item
+              a.nav-link(href='blog.html') blog list
+            li.nav-item
+              a.nav-link(href='blog-details.html') blog details
+            li.nav-item
+              a.nav-link(href='blogs-leftside.html') leftsidebar
+            li.nav-item
+              a.nav-link(href='blogs-rightside.html') rightsidebar
+            li.nav-item
+              a.nav-link(href='blog-details-with-leftsidebar.html') details leftsidebar
+            li.nav-item
+              a.nav-link(href='blog-details-with-rightsidebar.html') details rightsidebar
+        li.nav-item
+          a.nav-link(href=inner+'#price', data-menuanchor='price') price
+        li.nav-item
+          a.nav-link(href=inner+'#contact', data-menuanchor='contact') contact us
+        li.nav-item.dropdown
+          a.nav-link.dropdown-toggle(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Other page
+          ul.dropdown-menu
+            li.nav-item
+              a.nav-link(href='sign-in.html') sign in
+            li.nav-item
+              a.nav-link(href='sign-up.html') sign up
+            li.nav-item
+              a.nav-link(href='forget-pwd.html') Forget Password
+            li.nav-item
+              a.nav-link(href='thank-you.html') Thank you
+            li.nav-item
+              a.nav-link(href='review.html') Review
+            li.nav-item
+              a.nav-link(href='404.html') 404
+            li.nav-item
+              a.nav-link(href='faq.html') FAQ
+            li.nav-item
+              a.nav-link(href='download.html') Download
+// Nav end

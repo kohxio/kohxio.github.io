@@ -1,0 +1,47 @@
+- var src = "color-1.css"
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header
+    body
+      include ../../_assets/ltr/components/loader
+      section.authentication-form
+        .innerpage-decor
+          .innerpage-circle1
+            img(src='assets/images/Testimonial2.png', alt='')
+          .innerpage-circle2
+            img(src='assets/images/Testimonial1.png', alt='')
+        div
+          h2.title.text-center
+            | It's Free
+            span  Join US
+          p.text-center Welcome to tovo, Please join us with your personal account information.
+          .card
+            form.theme-form
+              .form-group
+                .md-fgrup-margin
+                  input.form-control(type='text', placeholder='your name', required='required')
+              .form-group
+                input.form-control(type='number', placeholder='phone', required='required')
+              .form-group
+                input.form-control(type='email', placeholder='email address', required='required')
+              .form-group
+                input.form-control(required='', type='password', placeholder='Password')
+              .form-group
+                input.form-control(type='password', name='login[password]', placeholder='Conform password', required='required')
+                .show-hide
+                  span.show
+              .form-group.row
+                .custom-control.custom-checkbox.col-6
+                  input#customControlAutosizing.custom-control-input(type='checkbox')
+                  label.custom-control-label(for='customControlAutosizing') Remember me
+                a.text-right.col-6.theme-link(href='forget-pwd.html') lost your password
+              .form-button.text-center
+                button.btn.btn-custom.theme-color(type='submit') Sign Up
+              .or-saparator
+                span or
+              h6.text-center.mt-0.mb-3 Sign up with:
+              .form-button.text-center.social-btns
+                button.btn.btn-custom.fb(type='submit') Facebook
+                button.btn.btn-custom.ggl(type='submit') Google
+      include ../../_assets/ltr/includes/footer-files

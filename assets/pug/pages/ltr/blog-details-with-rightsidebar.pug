@@ -1,0 +1,45 @@
+- var inner = "index.html"
+- var src = "color-1.css"
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header
+    body.blog-page.blog-detail.light-footer
+      include ../../_assets/ltr/components/loader
+      include ../../_assets/ltr/includes/nav
+      div.page-margin
+          // breadcrumb start
+          .breadcrumb-bg
+            .container
+              .row
+                .col-md-6.col-sm-12.col-text-center.d-align-center
+                  h2.title
+                    | Right
+                    span  Sidebar
+                .col-md-6.col-sm-12.col-text-center
+                  nav.blog-bradcrumb(aria-label='breadcrumb')
+                    ol.breadcrumb.bg-transparent.mb-0
+                      li.breadcrumb-item
+                        a(href='index.html') Home
+                      li.breadcrumb-item
+                        a(href='blog.html') Blog
+                      li.breadcrumb-item.active
+                        a(href='#') Blog Details with Right Sidebar
+          // breadcrumb end
+
+      // blog Section starts
+      section
+        .container
+          .row
+            // blog details starts
+            // sidebar starts
+            .col-md-4.col-lg-3.order-md-last.list-sidebar
+                include ../../_assets/ltr/blog/blog-sidebar
+            // sidebar end
+            .col-sm-12.col-md-8.col-lg-9
+                include ../../_assets/ltr/blog/blog-details
+            // blog details end
+
+      // blog Section End
+      include ../../_assets/ltr/includes/footer
+      include ../../_assets/ltr/includes/footer-files

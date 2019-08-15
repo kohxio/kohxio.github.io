@@ -1,0 +1,87 @@
+doctype html
+html(lang='en', dir='rtl')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i', rel='stylesheet')
+    title Email Templete
+    style(type='text/css').
+      h2{
+      color: #18e7d3;
+      }
+      .email {
+      text-align: center;
+      margin: 0 auto;
+      background-color: #ffffff;
+      width: 600px;
+      display: block;
+      padding-top: 10px;
+      box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+      }
+      .logo {
+      margin: 0 auto;
+      text-align: center;
+      display: block;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      }
+      .white-container {
+      background: #ffffff;
+      width: 560px;
+      text-align: center;
+      margin: 0 auto;
+      padding: 20px 0 0;
+      margin-top: -10px;
+      }
+      .sm {
+      max-width: 35px;
+      display: inline-block;
+      margin: 30px 5px;
+      }
+      h3 {
+      width: 400px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      font-weight: lighter;
+      font-size: 14px;
+      }
+      .footer{
+      background-color: #f1f1f1;
+      }
+      .social-media {
+      height: 90px;
+      }
+      @media screen and (max-width: 768px){
+      .email {
+      width: 100%;
+      }
+      .white-container{
+      width: 100%;
+      }
+      h3{
+      width: 100%;
+      }
+      }
+  body.rtl
+    div(style="font-family: 'Roboto Condensed', sans-serif; margin: 20px;")
+      .email
+        img.logo(src='assets/images/logo.png', width='200')
+        .white-container
+          .white-container
+            h2 شكرا
+            h3
+              | استفسارك يتم ، سنرد عليك قريبا. لأي استفسارات أخرى ، يرجى إرسال بريد إلكتروني على العنوان 
+              strong  support@test.com 
+        .footer
+          .social-media
+            a(href='#')
+              img.sm(src='https://themes.pixelstrap.com/tovo/main/assets/images/email/facebook-email.png')
+            a(href='#')
+              img.sm(src='https://themes.pixelstrap.com/tovo/main/assets/images/email/twitter-email.png')
+            a(href='#')
+              img.sm(src='https://themes.pixelstrap.com/tovo/main/assets/images/email/instagram-email.png')
+            a(href='#')
+              img.sm(src='https://themes.pixelstrap.com/tovo/main/assets/images/email/google.png')
+            a(href='#')
+              img.sm(src='https://themes.pixelstrap.com/tovo/main/assets/images/email/feed.png')

@@ -1,0 +1,27 @@
+- var src = "color-1.css"
+doctype html
+html(lang='en', dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header
+    body.rtl
+      include ../../_assets/rtl/components/loader
+      .authentication-form.not-found
+        .innerpage-decor
+          .innerpage-circle1
+            img(src='assets/images/Testimonial2.png', alt='')
+          .innerpage-circle2
+            img(src='assets/images/Testimonial1.png', alt='')
+        .text-center
+          h2.error-font
+            | 4
+            span 0
+            | 4
+          h2.f-bold غير معثور عليه
+          .col-md-8.m-auto.col-12
+            h3
+              | الصفحة التي تحاول الوصول إليها غير متوفرة حاليًا. قد يكون هذا بسبب
+              | الصفحة غير موجودة أو تم نقلها.
+          .mt-5
+            a.btn.btn-custom.theme-color.theme-color.pt-2.pb-2(href='index.html') الرجوع إلى الصفحة الرئيسية
+
+      include ../../_assets/rtl/includes/footer-files

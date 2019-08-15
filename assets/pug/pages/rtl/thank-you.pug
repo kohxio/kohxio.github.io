@@ -1,0 +1,31 @@
+- var src = "color-1.css"
+doctype html
+html(lang='en', dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header
+    body.rtl
+      include ../../_assets/rtl/components/loader
+      .full-page
+        .thanks-bg
+          .container
+            .col-md-12
+              .thanks-section
+                div
+                  img.img-fluid.downlod-img(src='assets/images/thank-you.png', alt='')
+                  .col-lg-12
+                    h2 شكرا جزيلا
+                  h3
+                    | إذا لم يبدأ تلقائيًا ،
+                    a.manual-down(href='#') الرجاء النقر هنا للتحميل يدويًا.
+        // copy-right-section
+        footer.bg-thanks
+          .container
+            .row
+              .col-md-12
+                .copyright-section
+                  p 2018-19 حقوق الطبع والنشر © بواسطة غابة الموضوع مدعوم من بكسل الشريط
+                  .mt-3.text-center
+                    a.btn.btn-custom.theme-color.theme-color.pt-2.pb-2(href='index.html') الرجوع إلى الصفحة الرئيسية
+        // end copy right section
+
+      include ../../_assets/rtl/includes/footer-files.pug

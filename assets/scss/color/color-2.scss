@@ -1,0 +1,499 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name:TOVO APP
+    Template URI: http://themes.pixelstrap.com/tovo
+    Description: This is App Landing Page
+    Author: Pixelstrap
+    Author URI: https://themeforest.net/user/pixelstrap
+
+-----------------------------------------------------------------------------------*/
+@import '../variable';
+//colors
+$color_cyan_aqua: #21ecff;
+$color_bright_turquoise: #25e0ff;
+$color_scooter: #29ceff;
+$seashell: #f1f1f1;
+$gray: #eee;
+
+//urls
+$url_0: url(../../images/color/color-2/1.png);
+$url_1: url(../../images/color/color-2/Homev2.png);
+$url_2: url(../../images/color/color-2/Homev3.png);
+$url_3: url(../../images/color/color-2/about-bg.png);
+$url_4: url(../../images/color/color-2/feature-bg1.png);
+$url_5: url(../../images/color/color-2/screenshot-bg.png);
+$url_6: url(../../images/color/color-2/team-bg.png);
+$url_7: url(../../images/color/color-2/team-img-bg.png);
+$url_8: url(../../images/color/color-2/price.png);
+$url_9: url(../../images/color/color-2/price-bg.png);
+$url_10: url(../../images/color/color-2/Homev1.png);
+$url_11: url(../../images/color/color-2/Testimonial.png);
+$url_12: url(../../images/color/color-2/contact.png);
+
+.caption-img {
+  filter: hue-rotate(15deg);
+}
+
+.loader {
+  background-color: $color_cyan_aqua;
+}
+
+h1 {
+  color: $color_cyan_aqua;
+}
+
+.price-type {
+  background-image: $url_9;
+  h2 {
+    color: $color_cyan_aqua;
+  }
+}
+
+.home {
+  background-image: $url_0;
+}
+
+.home-two {
+  background-image: $url_1;
+  .slide-cap-desc {
+    color: $seashell;
+  }
+}
+
+.home-three {
+  background-image: $url_2;
+}
+
+.home-style-two {
+  .home-two .slide-cap-desc {
+    color: $white !important;
+  }
+  .navbar-nav .dropdown-menu .nav-link:hover {
+    color: $color_cyan_aqua !important;
+  }
+}
+
+.color-picker {
+  .settings-header {
+    background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%) !important;
+    h3 {
+      color: $white !important;
+    }
+  }
+  .section {
+    border: 1px solid $color_cyan_aqua;
+  }
+  a.handle {
+    border: 1px solid $color_cyan_aqua;
+    background: $color_cyan_aqua;
+  }
+}
+
+.tap-top {
+  background: linear-gradient(to right, $color_cyan_aqua, $color_picton_blue) !important;
+  color: $white;
+}
+
+.slide-cap-desc {
+  color: $seashell;
+}
+
+.about {
+  background-image: $url_3;
+}
+
+.about-right {
+  background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%);
+}
+
+.address-bar {
+  background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%);
+}
+
+.feature {
+  background-image: $url_4;
+}
+
+.screenshot {
+  background-image: $url_5;
+}
+
+.team {
+  background-image: $url_6;
+}
+
+.team-block {
+  background-image: $url_7;
+  .team-social li a {
+    border: 1px solid $color_cyan_aqua;
+    &:hover {
+      background-color: $color_cyan_aqua;
+      border: 1px solid $color_cyan_aqua;
+    }
+  }
+}
+
+.blog-block {
+  background-image: $url_7;
+}
+
+.price {
+  background-image: $url_8;
+}
+
+.testimonial {
+  background-image: $url_10;
+}
+
+.testimonial-avtar {
+  background-image: $url_11;
+}
+
+.contact {
+  background-image: $url_12;
+}
+
+.navbar-brand img {
+  filter: hue-rotate(15deg);
+}
+
+.home-circle1 img {
+  filter: hue-rotate(15deg);
+}
+
+.home-circle2 img {
+  filter: hue-rotate(15deg);
+}
+
+.home-circle3 img {
+  filter: hue-rotate(15deg);
+}
+
+.home-right img {
+  filter: hue-rotate(15deg);
+}
+
+.about-phone img {
+  filter: hue-rotate(15deg);
+}
+
+.feature-phone img {
+  filter: hue-rotate(15deg);
+}
+
+.about-circle1 img {
+  filter: hue-rotate(15deg);
+}
+
+.about-circle2 img {
+  filter: hue-rotate(15deg);
+}
+
+.feature-style .feature-icon img {
+  filter: hue-rotate(15deg);
+}
+
+.feature-circle1 img {
+  filter: hue-rotate(15deg);
+}
+
+.feature-circle2 img {
+  filter: hue-rotate(15deg);
+}
+
+.screenshot-circle1 img {
+  filter: hue-rotate(15deg);
+}
+
+.screenshot-circle2 img {
+  filter: hue-rotate(15deg);
+}
+
+.screenshot-circle3 img {
+  filter: hue-rotate(15deg);
+}
+
+.screenshot-carousel img {
+  filter: hue-rotate(15deg);
+}
+
+.team-circle1 img {
+  filter: hue-rotate(15deg);
+}
+
+.team-circle2 img {
+  filter: hue-rotate(15deg);
+}
+
+.team-circle3 img {
+  filter: hue-rotate(15deg);
+}
+
+.testi-circle1 img {
+  filter: hue-rotate(15deg);
+}
+
+.testi-circle2 img {
+  filter: hue-rotate(15deg);
+}
+
+.testi-circle3 img {
+  filter: hue-rotate(15deg);
+}
+
+.contact-right img {
+  filter: hue-rotate(15deg);
+}
+
+.contact-circle1 img {
+  filter: hue-rotate(15deg);
+}
+
+.contact-circle2 img {
+  filter: hue-rotate(15deg);
+}
+
+.animated-circle img {
+  filter: hue-rotate(15deg);
+}
+
+.footer-text img {
+  filter: hue-rotate(15deg);
+}
+
+.testimonial-text h3 {
+  color: $color_cyan_aqua;
+}
+
+.btn-custom.theme-color {
+  background-image: linear-gradient(to right, $color_picton_blue, $color_bright_turquoise, $color_scooter, $color_picton_blue);
+  &:hover {
+    background-position: 100% 0;
+  }
+}
+
+#fp-nav ul li {
+  a {
+    span {
+      background: $color_cyan_aqua !important;
+    }
+    &.active {
+      border: 1px solid $color_cyan_aqua;
+      span {
+        background: $color_cyan_aqua !important;
+      }
+    }
+  }
+  &:hover a.active span {
+    background: $color_cyan_aqua !important;
+  }
+}
+
+.fp-slidesNav ul li {
+  a {
+    span {
+      background: $color_cyan_aqua !important;
+    }
+    &.active span {
+      background: $color_cyan_aqua !important;
+    }
+  }
+  &:hover a.active span {
+    background: $color_cyan_aqua !important;
+  }
+}
+
+.abt-hover:hover .icon-hover {
+  background: linear-gradient(to right, $color_cyan_aqua, $color_picton_blue) !important;
+}
+
+.navbar-light {
+  .default-nav {
+    .navbar-nav {
+      .nav-link {
+        &.active {
+          color: $color_cyan_aqua;
+        }
+      }
+    }
+  }
+  &.darkHeader {
+    .navbar-nav {
+      .nav-link {
+        &.active {
+          color: $color_cyan_aqua !important;
+        }
+      }
+    }
+  }
+}
+
+.navbar-light .navbar-nav {
+  .nav-item.dropdown-menu .nav-link {
+    &:hover {
+      color: $color_cyan_aqua !important;
+    }
+    &:focus {
+      color: $color_cyan_aqua !important;
+    }
+  }
+}
+
+.three .navbar-nav .dropdown-menu .nav-link:hover {
+  color: $color_cyan_aqua !important;
+}
+
+.icon-hover:hover {
+  background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%);
+  border: 1px solid $color_cyan_aqua;
+}
+
+.team-carousel.owl-theme .owl-dots .owl-dot {
+  span {
+    background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%) !important;
+  }
+  &.active span {
+    background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%);
+  }
+}
+
+.blog-carousel.owl-theme .owl-dots .owl-dot {
+  span {
+    background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%) !important;
+  }
+  &.active span {
+    background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%);
+  }
+}
+
+.testimonial-carousel.owl-theme .owl-dots .owl-dot {
+  span {
+    background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%) !important;
+  }
+  &.active span {
+    background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%);
+  }
+}
+
+.price-carousel.owl-theme .owl-dots .owl-dot span {
+  background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%) !important;
+}
+
+.blog-pagin a.page-link {
+  color: $color_cyan_aqua;
+  border: 1px solid $gray;
+  &:hover {
+    background-color: $color_picton_blue;
+  }
+}
+
+.page-item.active .page-link {
+  background-color: $color_picton_blue;
+}
+
+.tags .badge-theme {
+  background-color: $color_cyan_aqua;
+  color: $white;
+}
+
+.blog-cat-detail ul li a:hover {
+  color: $color_cyan_aqua;
+}
+
+.price-block:hover .mrp h2, .manual-down {
+  color: $color_cyan_aqua;
+}
+
+@media (max-width: 768px) {
+  .home-two, .home-three {
+    background-color: $color_picton_blue;
+  }
+}
+
+.authentication-form {
+  filter: hue-rotate(15deg);
+}
+
+.innerpage-decor {
+  img {
+    filter: hue-rotate(15deg);
+  }
+}
+
+.innerpage-decor {
+
+}
+
+.review-box h5 {
+  color: $color_cyan_aqua;
+}
+
+.theme-nav {
+  .nav-item {
+    &:hover {
+      .nav-link {
+        color: $color_bright_turquoise;
+      }
+    }
+    &.dropdown {
+      .dropdown-menu {
+        .nav-item {
+          .nav-link {
+            &.active {
+              color: $color_bright_turquoise !important;
+            }
+            &:hover {
+              color: $color_bright_turquoise !important;
+              transition: all 0.3s ease;
+            }
+          }
+        }
+      }
+    }
+  }
+  /*Dropdown css*/
+  &.darkHeader {
+    .dropdown-menu .nav-item {
+      .nav-link {
+        &.active {
+          color: $color_bright_turquoise;
+        }
+      }
+    }
+  }
+  /*dropdown css end*/
+  .navbar-nav {
+    .active {
+      > .nav-link {
+        color: $color_bright_turquoise;
+      }
+    }
+  }
+}
+
+.rtl {
+  .screenshot-carousel-rtl{
+    img{
+      filter: hue-rotate(15deg);
+    }
+  }
+  .feature, .about, .home {
+    filter: hue-rotate(15deg);
+  }
+  .home-circle1, .home-circle2, .home-circle3, .about-phone, .about-circle1, .about-circle2, .feature-circle1 {
+    img {
+      filter: unset;
+    }
+  }
+  .team-carousel-rtl,.blog-carousel-rtl {
+    &.owl-theme {
+      .owl-dots {
+        .owl-dot {
+          span {
+            background: linear-gradient(to bottom, #21ecff 0, #2cc6ff 99%) !important;
+          }
+        }
+      }
+    }
+  }
+}

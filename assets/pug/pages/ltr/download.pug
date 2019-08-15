@@ -1,0 +1,36 @@
+- var src = "color-1.css"
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header
+    body
+      include ../../_assets/ltr/components/loader
+      section.authentication-form.download
+        .innerpage-decor
+          .innerpage-circle1
+            img(src='assets/images/Testimonial2.png', alt='')
+          .innerpage-circle2
+            img(src='assets/images/Testimonial1.png', alt='')
+        .container
+          .row
+            .col-md-12
+              .text-center
+                img.img-fluid.downlod-img(src='assets/images/down.png', alt='')
+                .col-lg-8.offset-lg-2
+                  h2 Your download should begin automatically
+                h3
+                  | If it doesn’t start automatically,
+                  a.manual-down(href='#') please click here to downlaod manually.
+          // copy-right-section
+          footer.bg-light
+            .container
+              .row
+                .col-md-12
+                  .copyright-section
+                    p 2018-19 Copyright © By Themeforest Powered By Pixel Strap
+                  .form-button.text-center
+                    a.btn.btn-custom.btn-lg.theme-color.btn-back(href='index.html')
+                      i.fa.fa-angle-double-left.mr-2
+                      | Back to home
+          // end copy right section
+      include ../../_assets/ltr/includes/footer-files

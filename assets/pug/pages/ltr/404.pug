@@ -1,0 +1,26 @@
+- var src = "color-1.css"
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header
+    body
+      include ../../_assets/ltr/components/loader
+      .authentication-form.not-found
+        .innerpage-decor
+          .innerpage-circle1
+            img(src='assets/images/Testimonial2.png', alt='')
+          .innerpage-circle2
+            img(src='assets/images/Testimonial1.png', alt='')
+        .text-center
+          h2.error-font
+            | 4
+            span 0
+            | 4
+          h2.f-bold Not found
+          .col-md-8.offset-md-2.col-12
+            h3
+              | The page you are attempting to reach is currently not available. This may be because
+              | the page does not exist or has been moved.
+          .mt-5
+            a.btn.btn-custom.theme-color.theme-color.pt-2.pb-2(href='index.html') BACK TO HOME PAGE
+      include ../../_assets/ltr/includes/footer-files

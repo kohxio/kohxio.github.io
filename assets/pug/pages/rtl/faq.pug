@@ -1,0 +1,74 @@
+- var src = "color-1.css"
+- var inner = "index.html"
+doctype html
+html(lang='en', dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header
+    body.light-footer.rtl
+      include ../../_assets/rtl/components/loader
+      include ../../_assets/rtl/includes/nav
+      // blog Section start
+      .page-margin
+      // breadcrumb start
+      .breadcrumb-bg
+          .container
+            .row
+              .col-md-6.col-sm-6.col-text-center.d-align-center
+                h2.title
+                  span التعليمات
+              .col-md-6.col-sm-6.col-text-center
+                nav.blog-bradcrumb(aria-label='breadcrumb')
+                  ol.breadcrumb.bg-transparent.mb-0
+                    li.breadcrumb-item
+                      a(href='index.html') الصفحة الرئيسية
+                    li.breadcrumb-item.active
+                      a(href='#') التعليمات
+      // breadcrumb end
+      // sign in
+      section
+          .innerpage-decor
+            .innerpage-circle1
+              img(src='assets/images/Testimonial2.png', alt='')
+            .innerpage-circle2
+              img(src='assets/images/Testimonial1.png', alt='')
+          // faq in
+          .faq
+            .container
+              .row
+                .col-md-12
+                  #accordion
+                    .card.border-theme.mb-3.radius-0
+                      #headingOne.card-header(role='heading', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                        a
+                          | بند قابل للطي المجموعة # 1
+                          i.fa.fa-angle-down
+                      #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordion')
+                        .card-body
+                          | جدول أعمال التنمية كليشيهات الناتجة انتقد، لهذا حياة عالية تنسحب تيري ريتشاردسون لالحبار. خدمة القمر 3 الذئب لرغبات يقضوا بيانات المستهلكين لوح التزلج. الغذاء شاحنة من الكينوا لا أعرف كيف لي الكدح، مثل هذا السياق. 3 الذئب وقت الغداء القمر، ولكن وضعوا طائر على ذلك فإن بعض الحبار أصل واحد القهوة لا تأخذ شورديتش. لا يوجد شيء من روحي الكوفية هيلفيتيكا البيرة الحرفية انها لا تعرف رجل حكيم للقيام بها للعمل الطالب ويس أندرسون الائتمان. لنباتي إلا اليورو الجزار نائب لو مو. طماق السود البيرة الحرفية من المزرعة إلى المائدة، الدنيم الخام موالفة الجمالية لا يعرفون ربما كنت لم نسمع منهم أن تنسحب من العمل واتش اس المستدام.
+                    .card.border-theme.mb-3.radius-0
+                      #headingTwo.card-header(role='heading', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                        a
+                          | بند قابل للطي المجموعة # 2
+                          i.fa.fa-angle-down
+                      #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordion')
+                        .card-body
+                          | جدول أعمال التنمية كليشيهات الناتجة انتقد، لهذا حياة عالية تنسحب تيري ريتشاردسون لالحبار. خدمة القمر 3 الذئب لرغبات يقضوا بيانات المستهلكين لوح التزلج. الغذاء شاحنة من الكينوا لا أعرف كيف لي الكدح، مثل هذا السياق. 3 الذئب وقت الغداء القمر، ولكن وضعوا طائر على ذلك فإن بعض الحبار أصل واحد القهوة لا تأخذ شورديتش. لا يوجد شيء من روحي الكوفية هيلفيتيكا البيرة الحرفية انها لا تعرف رجل حكيم للقيام بها للعمل الطالب ويس أندرسون الائتمان. لنباتي إلا اليورو الجزار نائب لو مو. طماق السود البيرة الحرفية من المزرعة إلى المائدة، الدنيم الخام موالفة الجمالية لا يعرفون ربما كنت لم نسمع منهم أن تنسحب من العمل واتش اس المستدام.
+                    .card.border-theme.mb-3.radius-0
+                      #headingThree.card-header(role='heading', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                        a
+                          | بند قابل للطي المجموعة #3
+                          i.fa.fa-angle-down
+                      #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordion')
+                        .card-body
+                          | جدول أعمال التنمية كليشيهات الناتجة انتقد، لهذا حياة عالية تنسحب تيري ريتشاردسون لالحبار. خدمة القمر 3 الذئب لرغبات يقضوا بيانات المستهلكين لوح التزلج. الغذاء شاحنة من الكينوا لا أعرف كيف لي الكدح، مثل هذا السياق. 3 الذئب وقت الغداء القمر، ولكن وضعوا طائر على ذلك فإن بعض الحبار أصل واحد القهوة لا تأخذ شورديتش. لا يوجد شيء من روحي الكوفية هيلفيتيكا البيرة الحرفية انها لا تعرف رجل حكيم للقيام بها للعمل الطالب ويس أندرسون الائتمان. لنباتي إلا اليورو الجزار نائب لو مو. طماق السود البيرة الحرفية من المزرعة إلى المائدة، الدنيم الخام موالفة الجمالية لا يعرفون ربما كنت لم نسمع منهم أن تنسحب من العمل واتش اس المستدام.
+                    .card.border-theme.radius-0
+                      #headingFour.card-header(role='heading', data-toggle='collapse', data-target='#collapseFour', aria-expanded='false', aria-controls='collapseFour')
+                        a
+                          | بند قابل للطي المجموعة # 4
+                          i.fa.fa-angle-down
+                      #collapseFour.collapse(aria-labelledby='headingFour', data-parent='#accordion')
+                        .card-body
+                          | جدول أعمال التنمية كليشيهات الناتجة انتقد، لهذا حياة عالية تنسحب تيري ريتشاردسون لالحبار. خدمة القمر 3 الذئب لرغبات يقضوا بيانات المستهلكين لوح التزلج. الغذاء شاحنة من الكينوا لا أعرف كيف لي الكدح، مثل هذا السياق. 3 الذئب وقت الغداء القمر، ولكن وضعوا طائر على ذلك فإن بعض الحبار أصل واحد القهوة لا تأخذ شورديتش. لا يوجد شيء من روحي الكوفية هيلفيتيكا البيرة الحرفية انها لا تعرف رجل حكيم للقيام بها للعمل الطالب ويس أندرسون الائتمان. لنباتي إلا اليورو الجزار نائب لو مو. طماق السود البيرة الحرفية من المزرعة إلى المائدة، الدنيم الخام موالفة الجمالية لا يعرفون ربما كنت لم نسمع منهم أن تنسحب من العمل واتش اس المستدام.
+          // faq end
+      include ../../_assets/rtl/includes/footer
+      include ../../_assets/rtl/includes/footer-files

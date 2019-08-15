@@ -1,0 +1,91 @@
+//colors
+$white : white;
+$gray: #eee;
+$black: #000;
+$color_bon_jour: rgba(224, 224, 224, 1);
+$color_bon_jour_60: rgba(224, 224, 224, 0.6);
+$color_cararra: rgba(236, 236, 236, 1);
+$color_cararra_60: rgba(236, 236, 236, 0.6);
+$color_cararra_11: rgba(236, 236, 236, 0.11);
+$color_bon_jour: rgba(224, 224, 224, 1);
+$color_twilight_blue: #f3fffd;
+$color_tundora: #444444;
+$color_tapa: #777777;
+$color_black_haze: #f7f7f7;
+$color_mountain_mist: #999;
+$color_mine_shaft: #333;
+$color_alto: rgb(221, 221, 221);
+$color_gallery: #eeeeee;
+$black_13: rgba(0, 0, 0, 0.13);
+$color_gray_nurse: rgba(232, 232, 232, 1);
+$wild_sand_100: rgba(244, 244, 244, 1);
+$color_mercury: #e6e6e6;
+$black_5: rgba(0, 0, 0, 0.05);
+$color_silver_chalice_25: rgba(170, 170, 170, 0.25);
+$color_silver_chalice_15: rgba(170, 170, 170, 0.15);
+$color_silver_chalice: #aaaaaa;
+
+$color_bright_turquoise: #18e7d3;
+$color_scooter: #19d0de;
+$color_turquoise: #2bd4df;
+$color_cyan_aqua: #21edff;
+$color_picton_blue: #2cc6ff;
+
+$color_spring_green: #20f98a;
+$color_caribbean_green: #11d89c;
+$color_turquoise_blue: #59f7df;
+
+$color_charlotte: #b3f9fb;
+$color_java: #14bdb4;
+
+//other colors
+$border_gray: #dddddd;
+
+
+
+//fonts
+$font_0: Poppins;
+$font_1: sans-serif;
+
+//urls
+
+$url_0: url(../images/lannd-bg.png);
+$url_0: url(../images/lannd-bg.png);
+$url_1: url(../images/screen1.png);
+$url_2: url(../images/1.png);
+$url_3: url(../images/home2/home2-slider.png);
+$url_4: url(../images/home3/home3-slider.png);
+$url_5: url(../images/about-bg.png);
+$url_6: url(../images/feature-bg.png);
+$url_7: url(../images/screenshot-bg.png);
+$url_8: url(../images/team-bg.png);
+$url_9: url(../images/team-img-bg.png);
+$url_10: url(../images/price.png);
+$url_11: url(../images/price-bg.png);
+$url_12: url(../images/testimonial-bg.png);
+$url_13: url(../images/Testimonial.png);
+$url_14: url(../images/Contact.png);
+
+%extend_1 {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 32px;
+  color: $color_mountain_mist;
+  text-decoration: none;
+}
+
+%extend_2 {
+  height: 8px !important;
+  width: 8px !important;
+  margin: -4px 0 0 -4px !important;
+  background: $color_tapa !important;
+}
+
+%extend_3 {
+  transform: translate(-65%, 0);
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+

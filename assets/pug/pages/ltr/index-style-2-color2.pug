@@ -1,0 +1,30 @@
+- var src = "color-2.css"
+- var inner = ""
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header
+    body.home-style-two(data-spy='scroll', data-target='.navbar', data-offset='80')
+      include ../../_assets/ltr/components/loader
+      include ../../_assets/ltr/includes/nav
+      include ../../_assets/ltr/components/home-v2
+      include ../../_assets/ltr/components/about
+      include ../../_assets/ltr/components/feature
+      include ../../_assets/ltr/components/screenshot
+      include ../../_assets/ltr/components/team
+      include ../../_assets/ltr/components/blog
+      include ../../_assets/ltr/components/price
+      include ../../_assets/ltr/components/testimonial
+      include ../../_assets/ltr/components/contact-us
+      include ../../_assets/ltr/components/newsletter
+      include ../../_assets/ltr/components/map
+      include ../../_assets/ltr/includes/footer
+      include ../../_assets/ltr/includes/footer-files
+      // tilt js file
+      script(src="assets/js/tilt.jquery.js")
+      // validation
+      script(src='assets/js/jquery.validate.min.js')
+      script(src='assets/js/additional-methods.min.js')
+      script(src='assets/js/contact.js')
+      //scroll js
+      script(src="assets/js/scroll.js")

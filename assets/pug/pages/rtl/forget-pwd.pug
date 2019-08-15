@@ -1,0 +1,51 @@
+- var inner = "index.html"
+- var src = "color-1.css"
+doctype html
+html(lang='en', dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header
+    body.rtl
+      include ../../_assets/rtl/components/loader
+      section.authentication-form
+        .innerpage-decor
+          .innerpage-circle1
+            img(src='assets/images/Testimonial2.png', alt='')
+          .innerpage-circle2
+            img(src='assets/images/Testimonial1.png', alt='')
+          div
+              h2.title.text-center
+                | أعد تعيين
+                span  كلمة المرور
+              .card
+                form.theme-form
+                  .form-group.mt-2
+                    h6.mt-0.mb-3 أدخل رقم هاتفك المحمول :
+                    .form-row
+                      .col-4
+                        input.form-control.digits.mb-1(type='text', value='+ 91')
+                      .col-8
+                        input.form-control.digits.mb-1(type='tel', value='000-000-0000')
+                      .col-12.mt-4
+                        button.btn.btn-custom.btn-block.theme-color(type='submit') إرسال
+                  h6.text-center.mt-0.mb-3
+                    | إذا لم تتلق مكتب المدعي العام؟
+                    a.text-danger(href='#') إعادة إرسال
+                  .form-group.rounded.p-4.bg-light
+                    label.col-form-label.pt-0 أدخل مكتب المدعي العام
+                    .form-row.w-100
+                      .col
+                        input.form-control.digits.text-center.opt-text(type='text', value='00')
+                      .col
+                        input.form-control.digits.text-center.opt-text(type='text', value='00')
+                      .col
+                        input.form-control.digits.text-center.opt-text(type='text', value='00')
+                  .form-group
+                    input.form-control(required='', type='password', placeholder='كلمه السر')
+                  .form-group
+                    input.form-control(type='password', name='login[password]', placeholder='أعد إدخال كلمة السر', required='required')
+                    .show-hide
+                      span.show
+                  .form-button.text-center
+                    button.btn.btn-custom.theme-color(type='submit') فعله
+
+      include ../../_assets/rtl/includes/footer-files

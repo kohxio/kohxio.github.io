@@ -1,0 +1,50 @@
+- var inner = "index.html"
+- var src = "color-1.css"
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header
+    body
+      include ../../_assets/ltr/components/loader
+      section.authentication-form
+        .innerpage-decor
+          .innerpage-circle1
+            img(src='assets/images/Testimonial2.png', alt='')
+          .innerpage-circle2
+            img(src='assets/images/Testimonial1.png', alt='')
+        div
+          h2.title.text-center
+            | RESET YOUR
+            span  PASSWORD
+          .card
+            form.theme-form
+              .form-group.mt-2
+                h6.mt-0.mb-3 Enter Your Mobile Number :
+                .form-row
+                  .col-4
+                    input.form-control.digits.mb-1(type='text', value='+ 91')
+                  .col-8
+                    input.form-control.digits.mb-1(type='tel', value='000-000-0000')
+                  .col-12.mt-4
+                    button.btn.btn-custom.btn-block.theme-color(type='submit') Send
+              h6.text-center.mt-0.mb-3
+                | If don't receive OTP?
+                a.text-danger(href='#') Resend
+              .form-group.rounded.p-4.bg-light
+                label.col-form-label.pt-0 Enter OTP
+                .form-row.w-100
+                  .col
+                    input.form-control.digits.text-center.opt-text(type='text', value='00')
+                  .col
+                    input.form-control.digits.text-center.opt-text(type='text', value='00')
+                  .col
+                    input.form-control.digits.text-center.opt-text(type='text', value='00')
+              .form-group
+                input.form-control(required='', type='password', placeholder='Password')
+              .form-group
+                input.form-control(type='password', name='login[password]', placeholder='retype password', required='required')
+                .show-hide
+                  span.show
+              .form-button.text-center
+                button.btn.btn-custom.theme-color(type='submit') Done
+      include ../../_assets/ltr/includes/footer-files

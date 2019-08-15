@@ -1,0 +1,36 @@
+- var src = "color-1.css"
+doctype html
+html(lang='en', dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header
+    body.rtl
+      include ../../_assets/rtl/components/loader
+      section.authentication-form.download
+        .innerpage-decor
+          .innerpage-circle1
+            img(src='assets/images/Testimonial2.png', alt='')
+          .innerpage-circle2
+            img(src='assets/images/Testimonial1.png', alt='')
+        .container
+          .row
+            .col-md-12
+              .text-center
+                img.img-fluid.downlod-img(src='assets/images/down.png', alt='')
+                .col-lg-12
+                  h2 التنزيل سيبدأ تلقائيا
+                h3
+                  | إذا لم يبدأ تلقائيًا
+                  a.manual-down(href='#') الرجاء النقر هنا للتحميل يدويًا.
+          // copy-right-section
+          footer.bg-light
+            .container
+              .row
+                .col-md-12
+                  .copyright-section
+                    p 2018-19 حقوق الطبع والنشر © بواسطة غابة الموضوع مدعوم من غابة الموضوع
+                  .form-button.text-center
+                    a.btn.btn-custom.btn-lg.theme-color.btn-back(href='index.html')
+                      i.fa.fa-angle-double-left.mr-2
+                      | العودة إلى المنزل
+          // end copy right section
+      include ../../_assets/rtl/includes/footer-files

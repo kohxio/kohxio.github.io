@@ -1,0 +1,36 @@
+// Contact Section start
+section#contact.contact
+  .contact-decor
+    .contact-circle1
+      img(src='assets/images/main-banner12.png', alt='')
+    .contact-circle2
+      img(src='assets/images/main-banner1.png', alt='')
+  .container
+    .row
+      .col-md-12.col-lg-8.col-sm-12
+        .contact-us
+          .w-100
+            h2.title
+              span contact 
+              | information
+            form#myform.theme-form(action='assets/mailer.php', method='post')
+              .form-group
+                .row
+                  #mail_alert_class.alert.alert-success.alert-dismissible.d-none
+                    a.close(href='#', data-dismiss='alert', aria-label='close') ×
+                    #alert_mail
+                .row
+                  .col-sm-12.col-md-6.md-fgrup-margin
+                    input#fullname.form-control(type='text', name='fullname', placeholder='your name', required='required')
+                  .col-sm-12.col-md-6
+                    input#phone.form-control(type='number', name='phone', placeholder='phone', required='required')
+              .form-group
+                input#email.form-control(type='email', name='email', placeholder='email address', required='required')
+              .form-group
+                textarea#message.form-control(name='message', rows='4', placeholder='message', required='required')
+              .form-button
+                input#emailsend.btn.btn-custom.theme-color(type='submit', name='send', value='send')
+      .col-lg-4.d-medium-none-lg
+        .contact-right
+          img.img-fluid(src='assets/images/Contact-info.png', alt='')
+// Contact Section End

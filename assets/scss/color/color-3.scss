@@ -1,0 +1,420 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name:TOVO APP
+    Template URI: http://themes.pixelstrap.com/tovo
+    Description: This is App Landing Page
+    Author: Pixelstrap
+    Author URI: https://themeforest.net/user/pixelstrap
+
+-----------------------------------------------------------------------------------*/
+@import '../variable';
+//colors
+$color_caribbean_green: #14e296;
+$color_spring_green: #1bee90;
+$seashell: #f1f1f1;
+$color_persian_pink: #ff8fc0;
+
+//urls
+$url_3_3_0: url(../../images/color/color-3/1.png);
+$url_3_3_1: url(../../images/color/color-3/Homev2.png);
+$url_3_3_2: url(../../images/color/color-3/Homev3.png);
+$url_3_3: url(../../images/color/color-3/about-bg.png);
+$url_3_4: url(../../images/color/color-3/feature-bg1.png);
+$url_3_5: url(../../images/color/color-3/screenshot-bg.png);
+$url_3_6: url(../../images/color/color-3/team-bg.png);
+$url_3_7: url(../../images/color/color-3/team-img-bg.png);
+$url_3_8: url(../../images/color/color-3/price.png);
+$url_3_9: url(../../images/color/color-3/price-bg.png);
+$url_3_3_10: url(../../images/color/color-3/testimonial-bg.png);
+$url_3_3_11: url(../../images/color/color-3/Testimonial.png);
+$url_3_3_12: url(../../images/color/color-3/contact.png);
+
+
+.caption-img {
+  filter: hue-rotate(335deg);
+}
+.loader {
+  background-color: $color_caribbean_green;
+}
+h1 {
+  color: $color_caribbean_green;
+}
+.price-type {
+  background-image: $url_3_9;
+  h2 {
+    color: $color_caribbean_green;
+  }
+}
+.home {
+  background-image: $url_3_3_0;
+}
+.home-two {
+  background-image: $url_3_3_1;
+  .slide-cap-desc {
+    color: $seashell;
+  }
+}
+.home-three {
+  background-image: $url_3_3_2;
+}
+
+.navbar-light {
+  .default-nav{
+    .navbar-nav {
+      .nav-link{
+        &.active{
+          color: $color_caribbean_green;
+        }
+      }
+    }
+  }
+  &.darkHeader {
+    .navbar-nav {
+      .nav-link{
+        &.active {
+          color: $color_caribbean_green !important;
+        }
+      }
+    }
+  }
+  &.darkHeader .navbar-nav .nav-item.dropdown .dropdown-menu .nav-link:hover {
+    color: $color_caribbean_green;
+  }
+}
+.slide-cap-desc {
+  color: $seashell;
+}
+.tap-top {
+  background: linear-gradient(to right, $color_spring_green, $color_caribbean_green) !important;
+}
+.about {
+  background-image: $url_3_3;
+}
+.about-right {
+  background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%);
+}
+.address-bar {
+  background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%);
+}
+.feature {
+  background-image: $url_3_4;
+}
+.screenshot {
+  background-image: $url_3_5;
+}
+.team {
+  background-image: $url_3_6;
+}
+.team-block {
+  background-image: $url_3_7;
+  .team-social li a {
+    border: 1px solid $color_caribbean_green;
+    &:hover {
+      background-color: $color_caribbean_green;
+      border: 1px solid $color_caribbean_green;
+    }
+  }
+}
+.blog-block {
+  background-image: $url_3_7;
+}
+.color-picker {
+  .settings-header {
+    background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
+    h3 {
+      color: $white;
+    }
+  }
+  .section {
+    border: 1px solid $color_caribbean_green;
+  }
+  a.handle {
+    border: 1px solid $color_caribbean_green;
+    background: $color_caribbean_green;
+  }
+}
+.price {
+  background-image: $url_3_8;
+}
+.testimonial {
+  background-image: $url_3_3_10;
+}
+.testimonial-avtar {
+  background-image: $url_3_3_11;
+}
+.contact {
+  background-image: $url_3_3_12;
+}
+.navbar-brand img {
+  filter: hue-rotate(335deg);
+}
+.home-circle1 img {
+  filter: hue-rotate(335deg);
+}
+.home-circle2 img {
+  filter: hue-rotate(335deg);
+}
+.home-circle3 img {
+  filter: hue-rotate(335deg);
+}
+.home-right img {
+  filter: hue-rotate(335deg);
+}
+.about-phone img {
+  filter: hue-rotate(335deg);
+}
+.feature-phone img {
+  filter: hue-rotate(335deg);
+}
+.about-circle1 img {
+  filter: hue-rotate(335deg);
+}
+.about-circle2 img {
+  filter: hue-rotate(335deg);
+}
+.feature-style .feature-icon img {
+  filter: hue-rotate(335deg);
+}
+.feature-circle1 img {
+  filter: hue-rotate(335deg);
+}
+.feature-circle2 img {
+  filter: hue-rotate(335deg);
+}
+.screenshot-circle1 img {
+  filter: hue-rotate(335deg);
+}
+.screenshot-circle2 img {
+  filter: hue-rotate(335deg);
+}
+.screenshot-circle3 img {
+  filter: hue-rotate(335deg);
+}
+.screenshot-carousel img {
+  filter: hue-rotate(335deg);
+}
+.team-circle1 img {
+  filter: hue-rotate(335deg);
+}
+.team-circle2 img {
+  filter: hue-rotate(335deg);
+}
+.team-circle3 img {
+  filter: hue-rotate(335deg);
+}
+.testi-circle1 img {
+  filter: hue-rotate(335deg);
+}
+.testi-circle2 img {
+  filter: hue-rotate(335deg);
+}
+.testi-circle3 img {
+  filter: hue-rotate(335deg);
+}
+.contact-right img {
+  filter: hue-rotate(335deg);
+}
+.contact-circle1 img {
+  filter: hue-rotate(335deg);
+}
+.contact-circle2 img {
+  filter: hue-rotate(335deg);
+}
+.animated-circle img {
+  filter: hue-rotate(335deg);
+}
+.footer-text img {
+  filter: hue-rotate(335deg);
+}
+.testimonial-text h3 {
+  color: $color_caribbean_green;
+}
+.btn-custom.theme-color {
+  background-image: linear-gradient(to right, $color_caribbean_green, $color_spring_green, $color_caribbean_green, $color_caribbean_green);
+  &:hover {
+    background-position: 100% 0;
+  }
+}
+#fp-nav ul li {
+  a {
+    &.active {
+      border: 1px solid $color_caribbean_green;
+      span {
+        background: $color_caribbean_green !important;
+      }
+    }
+    span {
+      background: $color_caribbean_green !important;
+    }
+  }
+  &:hover a.active span {
+    background: $color_caribbean_green !important;
+  }
+}
+.fp-slidesNav ul li {
+  a {
+    span {
+      background: $color_caribbean_green !important;
+    }
+    &.active span {
+      background: $color_caribbean_green !important;
+    }
+  }
+  &:hover a.active span {
+    background: $color_caribbean_green !important;
+  }
+}
+.theme-nav .navbar-nav .active > .nav-link {
+  color: $color_caribbean_green;
+}
+.home-style-two .navbar-nav .dropdown-menu .nav-link:hover {
+  color: $color_caribbean_green !important;
+}
+.three .navbar-nav .dropdown-menu .nav-link:hover {
+  color: $color_caribbean_green !important;
+}
+.abt-hover:hover .icon-hover {
+  background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%);
+}
+.icon-hover:hover {
+  background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%);
+  border: 1px solid $color_persian_pink;
+}
+.team-carousel.owl-theme .owl-dots .owl-dot {
+  span {
+    background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
+  }
+  &.active span {
+    background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
+  }
+}
+.blog-carousel.owl-theme .owl-dots .owl-dot {
+  span {
+    background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
+  }
+  &.active span {
+    background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
+  }
+}
+.testimonial-carousel.owl-theme .owl-dots .owl-dot {
+  span {
+    background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
+  }
+  &.active span {
+    background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
+  }
+}
+.price-carousel.owl-theme .owl-dots .owl-dot span {
+  background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
+}
+.blog-pagin a.page-link {
+  color: $color_caribbean_green;
+  border: 1px solid $gray;
+  &:hover {
+    background-color: $color_caribbean_green;
+  }
+}
+.page-item.active .page-link {
+  background-color: $color_caribbean_green;
+}
+.tags .badge-theme {
+  background-color: $color_caribbean_green;
+  color: $white;
+}
+.blog-cat-detail ul li a:hover ,.manual-down{
+  color: $color_caribbean_green;
+}
+.price-block:hover .mrp h2 {
+  color: $color_caribbean_green;
+}
+.authentication-form{
+  filter: hue-rotate(335deg);
+}
+.innerpage-decor{
+  img{
+    filter: hue-rotate(335deg);
+  }
+}
+.faq .card-header[aria-expanded="true"] a {
+  color: $color_caribbean_green;
+}
+.review-box h5{
+  color: $color_caribbean_green;
+}
+@media (max-width: 768px){
+  .home-two  ,.home-three {
+    background-color: $color_caribbean_green;
+  }
+}
+
+.theme-nav {
+  .nav-item {
+    &:hover{
+      .nav-link{
+        color: $color_caribbean_green;
+      }
+    }
+    &.dropdown{
+      .dropdown-menu {
+        .nav-item {
+          .nav-link {
+            &.active{
+              color: $color_caribbean_green !important;
+            }
+            &:hover {
+              color: $color_caribbean_green !important;
+              transition: all 0.3s ease;
+            }
+          }
+        }
+      }
+    }
+  }
+  /*Dropdown css*/
+  &.darkHeader {
+    .dropdown-menu .nav-item {
+      .nav-link {
+        &.active{
+          color: $color_caribbean_green ;
+        }
+      }
+    }
+  }
+  /*dropdown css end*/
+  .navbar-nav {
+    .active{
+      >.nav-link {
+        color: $color_caribbean_green;
+      }
+    }
+  }
+}
+.rtl {
+  .screenshot-carousel-rtl{
+    img{
+      filter: hue-rotate(335deg);
+    }
+  }
+  .feature, .about, .home {
+    filter: hue-rotate(335deg);
+  }
+  .about-right {
+    background: linear-gradient(to bottom, #18e7d3 0, #19d0de 99%);
+  }
+  .home-circle1, .home-circle2, .home-circle3, .about-phone, .about-circle1, .about-circle2, .feature-circle1 {
+    img {
+      filter: unset;
+    }
+  }
+  .team-carousel-rtl,.blog-carousel-rtl {
+    &.owl-theme {
+      .owl-dots {
+        .owl-dot {
+          span {
+            background: linear-gradient(to bottom, #1bee90 0, #14e296 99%) !important;
+          }
+        }
+      }
+    }
+  }
+}

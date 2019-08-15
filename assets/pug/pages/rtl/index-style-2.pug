@@ -1,0 +1,31 @@
+- var src = "color-1.css"
+- var inner = ""
+doctype html
+html(lang='en', dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header
+    body.home-style-two.rtl(data-spy='scroll', data-target='.navbar', data-offset='80')
+      include ../../_assets/rtl/components/loader
+      include ../../_assets/rtl/components/loader
+      include ../../_assets/rtl/includes/nav
+      include ../../_assets/rtl/components/home-v2
+      include ../../_assets/rtl/components/about
+      include ../../_assets/rtl/components/feature
+      include ../../_assets/rtl/components/screenshot
+      include ../../_assets/rtl/components/team
+      include ../../_assets/rtl/components/blog
+      include ../../_assets/rtl/components/price
+      include ../../_assets/rtl/components/testimonial
+      include ../../_assets/rtl/components/contact-us
+      include ../../_assets/rtl/components/newsletter
+      include ../../_assets/rtl/components/map
+      include ../../_assets/rtl/includes/footer
+      include ../../_assets/rtl/includes/footer-files
+      // tilt js file
+      script(src="assets/js/tilt.jquery.js")
+      // validation
+      script(src='assets/js/jquery.validate.min.js')
+      script(src='assets/js/additional-methods.min.js')
+      script(src='assets/js/contact.js')
+      //scroll js
+      script(src="assets/js/scroll.js")

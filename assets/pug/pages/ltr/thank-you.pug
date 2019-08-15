@@ -1,0 +1,31 @@
+- var src = "color-1.css"
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header
+    body
+      include ../../_assets/ltr/components/loader
+      .full-page
+        .thanks-bg
+          .container
+            .col-md-12
+              .thanks-section
+                div
+                  img.img-fluid.downlod-img(src='assets/images/thank-you.png', alt='')
+                  .col-lg-8.offset-lg-2
+                    h2 Thank You
+                  h3
+                    | If it doesn’t start automatically,
+                    a.manual-down(href='#') please click here to downlaod manually.
+        // copy-right-section
+        footer.bg-thanks
+          .container
+            .row
+              .col-md-12
+                .copyright-section
+                  p 2018-19 Copyright © By Themeforest Powered By Pixel Strap
+                  .mt-3.text-center
+                    a.btn.btn-custom.theme-color.theme-color.pt-2.pb-2(href='index.html') BACK TO HOME PAGE
+        // end copy right section
+
+      include ../../_assets/ltr/includes/footer-files.pug

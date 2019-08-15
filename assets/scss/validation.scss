@@ -1,0 +1,45 @@
+//colors
+$black: #000;
+$red:  red;
+$color_mexican_red_approx: #9e2828;
+
+//fonts
+$font_0: Arial;
+$font_1: Helvetica;
+$font_2: sans-serif;
+
+%extend_1 {
+	float: left;
+	font-family: $font_0, $font_1, $font_2;
+	font-size: small;
+}
+
+#field {
+	margin-left: .5em;
+	float: left;
+	@extend %extend_1;
+}
+label {
+	@extend %extend_1;
+	&.error {
+		padding-left: 16px;
+		margin-left: .3em;
+		color: $color_mexican_red_approx;
+		font-size: 15px;
+	}
+	&.valid {
+		display: block;
+		width: 16px;
+		height: 16px;
+	}
+}
+br {
+	clear: both;
+}
+input {
+	border: 1px solid $black;
+	margin-bottom: .5em;
+	&.error {
+		border: 1px solid $red;
+	}
+}

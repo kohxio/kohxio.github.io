@@ -1,0 +1,47 @@
+- var src = "color-1.css"
+doctype html
+html(lang='en', dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header
+    body.light-footer.rtl
+      include ../../_assets/rtl/components/loader
+      // home section
+      section.authentication-form.coming-soon
+        .innerpage-decor
+          .innerpage-circle1
+            img(src='assets/images/Testimonial2.png', alt='')
+          .innerpage-circle2
+            img(src='assets/images/Testimonial1.png', alt='')
+        .container-fluid
+          .row
+            .col-xl-12
+              .fadeInLeft-land-caption.text-center
+                div
+                  div
+                    img.caption-img(src='assets/images/logoimage.png', alt='caption-img')
+                    .clock-box
+                      h3 نحن قادمون قريبا
+                      p يرجى التحقق مرة أخرى في غضون بعض الأيام لأننا قريبين جدًا
+                      ul.p-0.m-0
+                        li
+                          span#days 21
+                          |  أيام
+                        li
+                          span#hours 7
+                          |  ساعات
+                        li
+                          span#minutes 50
+                          |  الدقائق
+                        li
+                          span#seconds 5
+                          |  ثوانٍ
+                    a(href='#')
+                      img.store(src='assets/images/appstore.png', alt='appstore')
+                    a(href='#')
+                      img.ml-4.store(src='assets/images/play-store.png', alt='play-store')
+      // home section end
+      include ../../_assets/rtl/components/newsletter
+      include ../../_assets/rtl/includes/footer
+      include ../../_assets/rtl/includes/footer-files
+      // timer js file
+      script(src='assets/js/timer.js')

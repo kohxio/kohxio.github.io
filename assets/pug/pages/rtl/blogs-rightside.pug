@@ -1,0 +1,47 @@
+- var inner = "index.html"
+- var src = "color-1.css"
+doctype html
+html(lang='en', dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header
+    body.blog-page.light-footer.rtl
+      include ../../_assets/rtl/components/loader
+      include ../../_assets/rtl/includes/nav
+      div.page-margin
+        // breadcrumb start
+        .breadcrumb-bg
+          .container
+            .row
+              .col-md-6.col-sm-6.col-text-center.d-align-center
+                h2.title
+                  | اليمين
+                  span  الشريط الجانبي
+              .col-md-6.col-sm-6.col-text-center
+                nav.blog-bradcrumb(aria-label='breadcrumb')
+                  ol.breadcrumb.bg-transparent.mb-0
+                    li.breadcrumb-item
+                      a(href='index.html') الصفحة الرئيسية
+                    li.breadcrumb-item
+                      a(href='blog.html')  المدونة
+                    li.breadcrumb-item.active
+                      a(href='#')  الشريط الجانبي الأيمن
+
+        // breadcrumb end
+
+        // blog Section starts
+        section
+          .container
+            .row
+              // blog details starts
+              .col-md-8.col-lg-9.blog-sec
+                  include ../../_assets/rtl/blog/blog-list
+              // blog details end
+
+              // sidebar section
+              .col-md-4.col-lg-3.order-md-last.list-sidebar
+                    include ../../_assets/rtl/blog/blog-sidebar
+              // sidebar section
+
+        // blog Section End
+      include ../../_assets/rtl/includes/footer
+      include ../../_assets/rtl/includes/footer-files
